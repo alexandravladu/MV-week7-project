@@ -7,3 +7,27 @@ body {
     padding: 0;
     margin: 0;
 }
+
+nav {
+    background-color: #C689C6;
+    color: white;
+    padding: 20px 30px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.home {
+    font-size: 20px;
+    border-bottom: 2px solid purple;
+    cursor: pointer;
+}
