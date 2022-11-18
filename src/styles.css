@@ -224,7 +224,7 @@ nav {
     background-color: var(--secondary);
     left: 0;
     top: 0;
-    border-radius: 10px;
+    border-radius: 25px;
    }
    /* glow */
    .btn::before {
