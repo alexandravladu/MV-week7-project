@@ -2,7 +2,6 @@
 
 // slider code
 var slideIndex = 0;
-showSlides();
 
 function showSlides() {
   var i;
@@ -20,8 +19,9 @@ function showSlides() {
 
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
-} //API
+}
 
+showSlides(); //API
 
 var text = document.querySelector('.quote');
 var author = document.querySelector('.author');
